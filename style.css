@@ -85,7 +85,7 @@
     .active{
         position: relative;
         background-color: hsl(217, 19%, 35%);
-        width: min-content;
+        width: 200px;
         display: flex;
         flex-direction: row;
         padding: 21px 20px 21px 20px;
@@ -93,7 +93,7 @@
         color: hsl(214, 17%, 51%);
         letter-spacing: 5px;
         border-radius: 10px;
-        margin-top: -230px;
+        margin-top: -320px;
         margin-left: 965px;
         margin-bottom: 200px;
         display: none;
