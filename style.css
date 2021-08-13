@@ -5,5 +5,108 @@
         margin: 0;
         padding: 0;
         font-family: 'Manrope', sans-serif;
+        background-color: hsl(210, 46%, 95%);
+        font-size: 13px;
+        
     }
+
+    .card{
+        display: flex;
+        flex-direction: row;
+        width: 900px;
+        background: #fff;
+        border-radius: 10px;
+        margin-top: 160px;
+        margin-left: 250px;
+        margin-bottom: 160px;
+        color: hsl(214, 17%, 51%);
+
+    }
+
+    .card .left{
+        background: url('./images/drawers.jpg') left 0px top -20px ;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+        background-size: 450px;
+        background-clip:border-box;
+        background-repeat: no-repeat;
+        width: 45%;
+    }
+
+    .card .right{
+        width: 55%;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .top h1{
+        color: hsl(217, 19%, 35%);
+    }
+
+    .bottom{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .l{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .l img{
+        height: 45px;
+        border-radius: 50%;
+        margin-right: 20px;
+    }
+
+    .l p{
+        margin-top: 5px;
+    }
+
+    .l p span{
+        color: hsl(217, 19%, 35%);
+        font-weight: 700;
+    }
+
+    .r a img{
+        background-color: hsl(210, 46%, 95%);
+        padding: 10px;
+        border-radius: 50%;
+    }
+
+    .r a img:hover{
+        background-color: hsl(217, 19%, 35%);
+        color: #fff;
+    }
+
+    .active{
+        position: relative;
+        background-color: hsl(217, 19%, 35%);
+        width: min-content;
+        display: flex;
+        flex-direction: row;
+        padding: 21px 20px 21px 20px;
+        text-transform: uppercase;
+        color: hsl(214, 17%, 51%);
+        letter-spacing: 5px;
+        border-radius: 10px;
+        margin-top: -230px;
+        margin-left: 965px;
+        margin-bottom: 200px;
+        display: none;
+    }
+    .icons{
+        margin-left: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .icons img{
+        margin-right: 20px;
+    }
+
 }
